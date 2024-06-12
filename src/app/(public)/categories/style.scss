@@ -1,0 +1,37 @@
+#category{
+    .category-title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h1{
+            font-size: 34px;
+            color: #454545;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            color: #454545;
+            border: 2px solid #454545;
+            gap: 10px;
+            padding: 12px 15px;
+            border-radius:50px;
+            transition: 0.5s;
+            &:hover{
+                color:#fff;
+                background-color:#454545;
+                svg{
+                    path{
+                        stroke: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+    .category-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+    }
+}
