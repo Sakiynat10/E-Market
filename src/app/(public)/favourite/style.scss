@@ -1,0 +1,27 @@
+#cart{
+    .cart-cards{
+        display: grid;
+        align-items:center;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+    .cart-title{
+        font-size:42px;
+        position:relative;
+        display:inline-block;
+        margin-bottom:30px;
+        span{
+            position:absolute;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            top:10px;
+            right: -5px;
+            width:15px;
+            height:15px;
+            border-radius:50px;
+            background:red;
+            color:#fff;
+            font-size:12px;
+        }
+    }
+}

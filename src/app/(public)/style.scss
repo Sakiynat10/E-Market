@@ -109,3 +109,65 @@
         gap: 20px;
     }
 }
+
+#about{
+
+    .about-title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h1{
+            font-size: 34px;
+            color: #454545;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            color: #454545;
+            border: 2px solid #454545;
+            gap: 10px;
+            padding: 12px 15px;
+            border-radius:50px;
+            transition: 0.5s;
+            &:hover{
+                color:#fff;
+                background-color:#454545;
+                svg{
+                    path{
+                        stroke: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+    .about-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        .about-card{
+            border:1px solid #c1c1c175;
+            padding:30px;
+            border-radius: 3px;
+            .about-img{
+                position:relative;
+                width:100px;
+                height:100px;
+                border-radius:5px;
+                background-color: #454545;
+                img{
+                    padding:10px;
+                }
+                margin-bottom: 60px;
+            }
+            .about-subtitle{
+                h1{
+                    color: #454545;
+                    margin-bottom: 20px;
+                }
+                p{
+                    color:gray;
+                }
+            }
+        }
+    }
+}

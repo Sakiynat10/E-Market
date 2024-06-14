@@ -49,6 +49,7 @@ const Header = () => {
         <div className="nav-menu">
           <NavLink href="/products">Products</NavLink>
           <NavLink className="favourite" href="/favourite">
+           <span>0</span>
             <FaRegHeart />
           </NavLink>
           <NavLink className="cart" href="/cart">

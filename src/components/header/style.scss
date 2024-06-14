@@ -102,6 +102,7 @@ header{
                     padding: 5px 10px;
                     transition: 0.5s;
                     &:hover{
+                        border: inset 5px solid red;
                         background-color: #454545;
                         color: #fff;
                     }

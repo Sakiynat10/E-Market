@@ -1,8 +1,18 @@
+import Favourite from "@/components/favourite"
 
-const FavouritePage = () => {
+import "./style.scss"
+
+const CartPage = () => {
   return (
-    <section className="container">FavouritePage</section>
+    <section id="cart">
+      <div className="container">
+        <h1 className="cart-title">Favourite products<span>0</span></h1>
+        <div className="cart-cards">
+          <Favourite/>
+        </div>
+      </div>
+    </section>
   )
 }
 
-export default FavouritePage
+export default CartPage

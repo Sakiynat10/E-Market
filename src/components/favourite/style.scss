@@ -1,10 +1,10 @@
-.product-card{
+.cart-card{
     display: flex;
     position:relative;
     border:1px solid #afafaf27;
     flex-direction: column;
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     transition:0.5s;
     overflow: hidden;
@@ -36,7 +36,7 @@
                 color: #454545;
             }
         }
-        .product-price{
+        .cart-price{
             display:flex;
             align-items:center;
             justify-content:space-between;

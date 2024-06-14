@@ -1,0 +1,10 @@
+.brand-images{
+    display:flex;
+    width:100%;
+    background:red;
+    .brand-img{
+        position:relative;
+        height:50px;
+        width:100px;
+    }
+}

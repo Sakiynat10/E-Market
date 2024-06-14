@@ -4,6 +4,11 @@ import Categories from "@/components/categories";
 import Products from "@/components/last-products";
 import "./style.scss";
 
+import React from 'react';
+
+
+
+
 
 export default function Home() {
   return (
@@ -42,7 +47,64 @@ export default function Home() {
             </a>
           </div>
           <div className="category-cards">
-            <Categories/>
+            <Categories />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div className="container">
+          <div className="about-title">
+            <h1>Why E-Market?</h1>
+            <a href="/about">
+              About market
+              <svg
+                width="15"
+                height="12"
+                viewBox="0 0 15 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 6H14M14 6L9 11M14 6L9 1" stroke="#454545" />
+              </svg>
+            </a>
+          </div>
+          <div className="about-cards">
+            <div className="about-card">
+              <div className="about-img">
+                <Image fill src="/service-1.svg" alt="img" />
+              </div>
+              <div className="about-subtitle">
+                <h1>Только проверенные бренды</h1>
+                <p>Бренды, проверенные временем и качеством</p>
+              </div>
+            </div>
+            <div className="about-card">
+              <div className="about-img">
+                <Image fill src="/service-2.svg" alt="img" />
+              </div>
+              <div className="about-subtitle">
+                <h1>Самые низкие цены</h1>
+                <p>Ниже не будет нигде</p>
+              </div>
+            </div>
+            <div className="about-card">
+              <div className="about-img">
+                <Image fill src="/service-3.svg" alt="img" />
+              </div>
+              <div className="about-subtitle">
+                <h1>Быстрая доствка</h1>
+                <p>Доставляем по всей РФза 1-10 дней</p>
+              </div>
+            </div>
+            <div className="about-card">
+              <div className="about-img">
+                <Image fill src="/service-4.svg" alt="img" />
+              </div>
+              <div className="about-subtitle">
+                <h1>Большой ассортимент</h1>
+                <p>Более 1000 товаров</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -64,7 +126,7 @@ export default function Home() {
             </a>
           </div>
           <div className="product-cards">
-            <Products/>
+            <Products />
           </div>
         </div>
       </section>
